@@ -1,0 +1,19 @@
+$button-ghost-bg-color: transparent;
+$button-ghost-text-color: rgba(95, 72, 234, 1);
+
+.button-ghost {
+    width: 100%;
+    background-color: $button-ghost-bg-color;
+    color: $button-ghost-text-color;
+    font-size: 14px;
+    padding: 10px 0;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    transition: .3s ease-in;
+
+    &:hover {
+        opacity: .8;
+        transition: .3s ease-in;
+    }
+}
