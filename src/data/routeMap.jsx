@@ -1,4 +1,4 @@
-import MainPage from "../pages/MainPage";
+import MainPage from "../components/pages/MainPage";
 import routePathEnum from "../enums/routePathEnum";
 import React from "react";
 
