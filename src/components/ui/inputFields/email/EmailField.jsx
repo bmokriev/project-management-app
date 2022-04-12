@@ -4,12 +4,9 @@ import "./style.scss";
 const EmailField = (props) => {
   return (
     <>
-      <form>
-        <input
-          className="button-primary"
-          placeholder="Write an Email Address"
-        />
-      </form>
+      <div className="email-field">
+        <input className="email-input" placeholder="Write an Email Address" />
+      </div>
     </>
   );
 };

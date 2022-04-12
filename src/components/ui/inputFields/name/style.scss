@@ -1,6 +1,6 @@
 @import "../../../../styles/config";
 
-form {
+.name-field {
   color: $stock-color;
   padding: 2px;
   border: 1px solid currentColor;
@@ -8,7 +8,7 @@ form {
   margin: 0 0 30px;
 }
 
-input {
+.name-input {
   border: none;
   background: transparent;
   margin: 0;

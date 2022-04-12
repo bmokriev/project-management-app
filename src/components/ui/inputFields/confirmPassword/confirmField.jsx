@@ -8,8 +8,9 @@ function ConfirmField() {
 
   return (
     <>
-      <form>
+      <div className="confirm-field">
         <input
+          className="confirm-input"
           type={inputType}
           placeholder="Rewrite the Password"
           id="password-input"
@@ -24,7 +25,7 @@ function ConfirmField() {
             onClick={() => setInputType("password")}
           />
         )}
-      </form>
+      </div>
     </>
   );
 }

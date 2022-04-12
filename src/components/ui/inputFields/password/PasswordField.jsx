@@ -8,11 +8,11 @@ function PasswordField() {
 
   return (
     <>
-      <form>
+      <div className="password-field">
         <input
           type={inputType}
           placeholder="Write a Password"
-          id="password-input"
+          className="password-input"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         />
@@ -24,7 +24,7 @@ function PasswordField() {
             onClick={() => setInputType("password")}
           />
         )}
-      </form>
+      </div>
     </>
   );
 }
