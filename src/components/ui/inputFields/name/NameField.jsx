@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.scss";
 
-const EmailField = (props) => {
+const NameField = (props) => {
   return (
     <>
       <form>
@@ -14,4 +14,4 @@ const EmailField = (props) => {
   );
 };
 
-export default EmailField;
+export default NameField;
