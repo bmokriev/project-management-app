@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.scss";
 
-const NameField = (props) => {
+const NameField = () => {
   return (
     <>
       <div className="name-field">

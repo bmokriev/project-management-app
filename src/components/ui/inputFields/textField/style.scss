@@ -1,0 +1,19 @@
+@import "../../../../styles/config";
+
+.text-field {
+  color: $stock-color;
+  padding: 2px;
+  border: 1px solid currentColor;
+  border-radius: 5px;
+  margin: 0 0 30px;
+}
+
+.text-input {
+  border: none;
+  background: transparent;
+  margin: 0;
+  padding: 7px 8px;
+  font-size: 14px;
+  color: $dark-d-1;
+  border-radius: inherit;
+}
