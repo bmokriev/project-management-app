@@ -1,0 +1,47 @@
+@use '../../styles/config';
+
+#avatar-form {
+  width: 548px;
+  height: 270px;
+
+  h1 {
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+
+  div {
+    display: flex;
+    width: 100%;
+    margin-bottom: 40px;
+    height: 100px;
+
+    #upload-btn {
+      width: 100px;
+      height: 100px;
+      background-color: config.$dark-d-1;
+      opacity: 0.7;
+      border: none;
+      border-radius: 10px;
+      margin-right: 30px;
+      flex-shrink: 0;
+
+      #camera {
+        width: 30px;
+        height: 30px;
+        color: config.$white;
+      }
+    }
+
+    #radios {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 13px;
+      height: 100%;
+      align-items: center;
+
+      input {
+      }
+    }
+  }
+}
