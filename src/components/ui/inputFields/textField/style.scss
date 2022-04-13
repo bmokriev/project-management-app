@@ -1,19 +1,38 @@
 @import "../../../../styles/config";
 
-.text-field {
-  color: $stock-color;
-  padding: 2px;
-  border: 1px solid currentColor;
-  border-radius: 5px;
-  margin: 0 0 30px;
-}
+.text-form {
+  width: 100%;
+  position: relative;
+  height: 50px;
+  input {
+    width: 100%;
+    height: 100%;
+    color: $dark-d-1;
+    font-size: 22px;
+    padding-top: 20px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid $button-primary-bg-color;
+  }
+  label {
+    position: absolute;
+    bottom: 0px;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    color: $dark-d-3;
+    pointer-events: none;
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0px;
+      bottom: 0px;
+      height: 100%;
+      width: 100%;
 
-.text-input {
-  border: none;
-  background: transparent;
-  margin: 0;
-  padding: 7px 8px;
-  font-size: 14px;
-  color: $dark-d-1;
-  border-radius: inherit;
+      border-bottom: 1px solid $button-primary-bg-color;
+      transform: translateX(-100%);
+    }
+  }
 }
