@@ -4,8 +4,9 @@ import "./style.scss";
 const EmailField = (props) => {
   return (
     <>
+      <label className="label-text">Email adress</label>
       <div className="email-field">
-        <input className="email-input" placeholder="Write an Email Address" />
+        <input />
       </div>
     </>
   );

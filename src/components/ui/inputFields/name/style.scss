@@ -1,15 +1,13 @@
 @import "../../../../styles/config";
 
 .label-text {
-  font-size: 12px;
+  font-size: 10px;
   color: $dark-d-3;
 }
 
 .name-field {
   color: $stock-color;
-  padding: 2px;
   border-radius: 5px;
-  margin: 0 0 30px;
 
   input {
     height: 100%;
