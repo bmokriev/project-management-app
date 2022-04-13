@@ -10,7 +10,8 @@
     border: 1px solid $button-primary-bg-color;
     border-radius: 0px;
     text-align: center;
-    font-size: 18px;
+    color: $dark-d-1;
+    font-size: 32px;
     &:focus {
       outline: 1px solid $error-color;
     }

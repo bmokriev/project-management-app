@@ -3,7 +3,6 @@ import ConfirmField from "../ui/inputFields/confirmPassword/ConfirmField";
 import EmailField from "../ui/inputFields/email/EmailField";
 import NameField from "../ui/inputFields/name/NameField";
 import PasswordField from "../ui/inputFields/password/PasswordField";
-import VerificationField from "../ui/inputFields/verificationField/VerificationField";
 
 const MainPage = () => {
   return (
@@ -13,7 +12,6 @@ const MainPage = () => {
       <NameField />
       <PasswordField />
       <ConfirmField />
-      <VerificationField />
     </div>
   );
 };
