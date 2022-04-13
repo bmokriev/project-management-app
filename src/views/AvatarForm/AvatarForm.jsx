@@ -45,7 +45,10 @@ function AvatarForm() {
           ))}
         </div>
       </div>
-      <ButtonPrimary btnTitle='Next' />
+      <div id='buttons'>
+        <ButtonPrimary btnTitle='Next' />
+        <a>Skip This</a>
+      </div>
     </div>
   );
 }
