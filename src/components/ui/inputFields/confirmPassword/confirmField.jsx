@@ -8,12 +8,10 @@ function ConfirmField() {
 
   return (
     <>
-      <div className="confirm-field">
+      <label className="label-text">Confirm password</label>
+      <div className="password-field">
         <input
-          className="confirm-input"
           type={inputType}
-          placeholder="Rewrite the Password"
-          id="password-input"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         />
@@ -29,5 +27,4 @@ function ConfirmField() {
     </>
   );
 }
-
 export default ConfirmField;

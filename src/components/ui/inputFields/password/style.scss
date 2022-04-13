@@ -1,23 +1,22 @@
 @import "../../../../styles/config";
 
+.label-text {
+  font-size: 10px;
+  color: $dark-d-3;
+}
 .password-field {
-  color: $stock-color;
-  padding: 2px;
-  border: 1px solid currentColor;
+  border: 1px solid $stock-color;
   border-radius: 5px;
-  margin: 0 0 30px;
-}
 
-.password-input {
-  border: none;
-  background: transparent;
-  margin: 0;
-  padding: 7px 8px;
-  font-size: 14px;
-  color: $dark-d-1;
-  border-radius: inherit;
-}
-
-.icon {
-  color: $dark-d-5;
+  input {
+    border: none;
+    margin: 0;
+    padding: 7px 8px;
+    font-size: 20px;
+    color: $dark-d-1;
+    outline: none;
+  }
+  .icon {
+    color: $dark-d-5;
+  }
 }

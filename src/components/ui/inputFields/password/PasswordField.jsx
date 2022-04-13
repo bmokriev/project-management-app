@@ -8,11 +8,10 @@ function PasswordField() {
 
   return (
     <>
+      <label className="label-text">Password</label>
       <div className="password-field">
         <input
           type={inputType}
-          placeholder="Write a Password"
-          className="password-input"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         />

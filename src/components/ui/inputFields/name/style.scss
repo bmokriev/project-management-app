@@ -12,16 +12,12 @@
   input {
     height: 100%;
     width: 100%;
-    border: 1px solid $button-primary-bg-color;
+    border: 1px solid $stock-color;
     background: transparent;
     margin: 0;
     padding: 7px 8px;
     font-size: 20px;
     color: $dark-d-1;
-    border-radius: inherit;
     outline: none;
-    &:focus {
-      border: 1px solid $error-color;
-    }
   }
 }
