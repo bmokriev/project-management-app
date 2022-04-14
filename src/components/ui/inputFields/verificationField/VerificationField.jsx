@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.scss";
 
-const VerificationField = () => {
+const VerificationField = (props) => {
   return (
     <>
       <div className="verification-field">
