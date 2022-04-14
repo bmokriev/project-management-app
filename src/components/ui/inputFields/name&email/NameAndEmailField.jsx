@@ -6,7 +6,7 @@ const NameAndEmailField = (props) => {
     <>
       <label className="label-text">{props.inputLabel}</label>
       <div className="name-field">
-        <input />
+        <input type="text" required />
       </div>
     </>
   );

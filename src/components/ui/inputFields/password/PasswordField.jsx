@@ -14,6 +14,7 @@ function PasswordField(props) {
           type={inputType}
           value={password}
           onChange={(e) => setPassword(e.target.value)}
+          required
         />
         {inputType === "password" ? (
           <AiOutlineEye className="icon" onClick={() => setInputType("text")} />

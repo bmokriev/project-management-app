@@ -7,12 +7,14 @@
 
 .name-field {
   color: $stock-color;
-  border-radius: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
 
   input {
     height: 100%;
     width: 100%;
     border: 1px solid $stock-color;
+    border-radius: 5px;
     background: transparent;
     margin: 0;
     padding: 7px 8px;

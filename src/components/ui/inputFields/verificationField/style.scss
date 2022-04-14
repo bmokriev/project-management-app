@@ -3,8 +3,10 @@
 .verification-field {
   display: flex;
   justify-content: center;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
   input {
-    margin: 5vh;
     height: 100px;
     width: 100px;
     border: 1px solid $stock-color;
@@ -12,7 +14,7 @@
     text-align: center;
     color: $dark-d-1;
     font-size: 30px;
-    &:focus {
+    &:valid {
       outline: 1px solid $button-primary-bg-color;
     }
   }
