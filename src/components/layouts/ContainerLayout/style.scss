@@ -1,0 +1,25 @@
+@import "../../../styles/config";
+
+:root {
+  --background-color: #fff;
+  --text-color: #000;
+  --shadowWidth: 20px;
+}
+
+html[data-theme="dark"] {
+  --background-color: #222b32;
+  --text-color: #fff;
+}
+
+.container-layout.center {
+  margin: auto;
+  width: 732px;
+  padding: 10px 96px;
+  margin: 115px 354px;
+  border-radius: 20px;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  -moz-box-shadow: 0 0 var(--shadowWidth) #ccc;
+  -webkit-box-shadow: 0 0 var(--shadowWidth) #ccc;
+  box-shadow: 0 0 var(--shadowWidth) #ccc;
+}

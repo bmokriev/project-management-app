@@ -1,10 +1,11 @@
 import React from "react";
+import ContainerLayout from "../layouts/ContainerLayout/ContainerLayout";
 
 const MainPage = () => {
   return (
-    <div>
+    <ContainerLayout>
       <h1>Hello World</h1>
-    </div>
+    </ContainerLayout>
   );
 };
 
