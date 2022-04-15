@@ -2,14 +2,14 @@ import React, { useState } from "react";
 import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai";
 import "./style.scss";
 
-function PasswordField(props) {
+function ConfirmPasswordField(props) {
   const [password, setPassword] = useState("");
   const [inputType, setInputType] = useState("password");
 
   return (
     <>
-      <label className="label-text">{props.InputLabel}</label>
-      <div className="password-field">
+      <label className="confirmPassword-label">{props.passwordLabel}</label>
+      <div className="confirmPassword-field">
         <input
           type={inputType}
           value={password}
@@ -29,4 +29,4 @@ function PasswordField(props) {
   );
 }
 
-export default PasswordField;
+export default ConfirmPasswordField;

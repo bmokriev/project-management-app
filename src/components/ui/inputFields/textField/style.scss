@@ -4,6 +4,9 @@
   width: 100%;
   position: relative;
   height: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+
   input {
     width: 100%;
     height: 100%;
@@ -14,7 +17,7 @@
     outline: none;
     border-bottom: 1px solid $button-primary-bg-color;
   }
-  label {
+  .text-label {
     position: absolute;
     bottom: 0px;
     left: 0%;

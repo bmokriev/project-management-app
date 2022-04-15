@@ -1,10 +1,10 @@
 import React from "react";
 import "./style.scss";
 
-const NameAndEmailField = (props) => {
+const NameField = (props) => {
   return (
     <>
-      <label className="label-text">{props.inputLabel}</label>
+      <label className="name-label">{props.nameLabel}</label>
       <div className="name-field">
         <input type="text" required />
       </div>
@@ -12,4 +12,4 @@ const NameAndEmailField = (props) => {
   );
 };
 
-export default NameAndEmailField;
+export default NameField;

@@ -6,7 +6,7 @@ const TextField = (props) => {
     <>
       <div className="text-form">
         <input className="text-input" />
-        <label className="label-text">
+        <label className="text-label">
           <span className="label-content">{props.textLabel}</span>
         </label>
       </div>
