@@ -21,9 +21,11 @@ html[data-theme="dark"] {
   border-radius: 20px;
   background: var(--background-color);
   color: var(--text-color);
-  -moz-box-shadow: 0 0 var(--shadowWidth) #ccc;
-  -webkit-box-shadow: 0 0 var(--shadowWidth) #ccc;
-  box-shadow: 0 0 var(--shadowWidth) #ccc;
+
+  // This isn't the correct box shadow & we should use box shadow on the widgets instead
+  // -moz-box-shadow: 0 0 var(--shadowWidth) #ccc;
+  // -webkit-box-shadow: 0 0 var(--shadowWidth) #ccc;
+  // box-shadow: 0 0 var(--shadowWidth) #ccc;
 }
 
 @media only screen and (max-width: 950px) {
