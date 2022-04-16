@@ -8,6 +8,7 @@ const MainPage = () => {
 
   return (
     <ContainerLayout title="Hello World">
+      <h1>Hello World</h1>
       <p>
         He who controls the past, commands the future. He who commands the
         future, conquers the past.
