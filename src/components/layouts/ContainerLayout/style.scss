@@ -11,15 +11,30 @@ html[data-theme="dark"] {
   --text-color: #fff;
 }
 
-.container-layout.center {
-  margin: auto;
-  width: 732px;
+.container-layout .center .title {
+  text-align: center;
+}
+
+.container-layout .center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 732px; // 732px
   padding: 10px 96px;
-  margin: 115px 354px;
   border-radius: 20px;
-  background-color: var(--background-color);
+  background: var(--background-color);
   color: var(--text-color);
   -moz-box-shadow: 0 0 var(--shadowWidth) #ccc;
   -webkit-box-shadow: 0 0 var(--shadowWidth) #ccc;
   box-shadow: 0 0 var(--shadowWidth) #ccc;
+}
+
+@media only screen and (max-width: 950px) {
+  .container-layout .center {
+    width: 85%;
+    padding: 20px;
+    border-radius: 20px;
+  }
 }
