@@ -3,7 +3,7 @@ import ContainerLayout from "../layouts/ContainerLayout/ContainerLayout";
 
 const MainPage = () => {
   return (
-    <ContainerLayout title="Hello World">
+    <ContainerLayout>
       <h1>Hello World</h1>
       <p>
         He who controls the past, commands the future. He who commands the
