@@ -11,6 +11,7 @@ function PasswordField(props) {
       <label className="password-label">{props.InputLabel}</label>
       <div className="password-field">
         <input
+          className={props.password}
           type={inputType}
           value={password}
           onChange={(e) => setPassword(e.target.value)}

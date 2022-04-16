@@ -9,7 +9,7 @@ const VerificationField = (props) => {
 
     setOtp([...otp.map((d, idx) => (idx === index ? element.value : d))]);
 
-    //focus next
+    //focus next inputField
     if (element.nextSibling) {
       element.nextSibling.focus();
     }
@@ -21,6 +21,7 @@ const VerificationField = (props) => {
           return (
             <input
               type="text"
+              className={props.verificationInput}
               maxLength="1"
               required
               key={index}
