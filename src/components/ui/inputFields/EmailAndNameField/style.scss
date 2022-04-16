@@ -1,0 +1,25 @@
+@import "../../../../styles/config";
+
+.email-name-label {
+  font-size: 10px;
+  color: $dark-d-3;
+}
+
+.email-name-field {
+  color: $stock-color;
+  margin-left: 20px;
+  margin-right: 20px;
+
+  input {
+    height: 100%;
+    width: 100%;
+    border: 1px solid $stock-color;
+    border-radius: 5px;
+    background: transparent;
+    margin: 0;
+    padding: 7px 8px;
+    font-size: 20px;
+    color: $dark-d-1;
+    outline: none;
+  }
+}
