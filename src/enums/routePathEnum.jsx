@@ -2,5 +2,6 @@
 export default {
   MAIN_PAGE: "/",
   FORGOT_PASSWORD_PAGE: "/forgot-password",
-  RESET_PASSWORD_PAGE: "/reset-password"
+  RESET_PASSWORD_PAGE: "/reset-password",
+  COMPANY_SIZE_PAGE: "/company-size"
 };

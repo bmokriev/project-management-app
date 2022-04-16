@@ -1,10 +1,11 @@
 import MainPage from "../components/pages/MainPage";
 import ForgotPasswordPage from "../components/pages/ForgotPasswordPage/ForgotPasswordPage";
 import ResetPasswordPage from "../components/pages/ResetPasswordPage/ResetPasswordPage";
+import CompanySizePage from "../components/pages/CompanySizePage/CompanySizePage";
 import routePathEnum from "../enums/routePathEnum";
 import React from "react";
 
-const { MAIN_PAGE, FORGOT_PASSWORD_PAGE,  RESET_PASSWORD_PAGE} = routePathEnum;
+const { MAIN_PAGE, FORGOT_PASSWORD_PAGE,  RESET_PASSWORD_PAGE, COMPANY_SIZE_PAGE} = routePathEnum;
 
 export function routeMap() {
   return [
@@ -19,6 +20,10 @@ export function routeMap() {
     {
       component: <ResetPasswordPage />,
       path: RESET_PASSWORD_PAGE
+    },
+    {
+      component: <CompanySizePage />,
+      path: COMPANY_SIZE_PAGE
     }
   ];
 }

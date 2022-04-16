@@ -1,0 +1,28 @@
+@import '../../../styles/config';
+
+.company-size-wrapper {
+    box-shadow: $container-box-shadow;
+    max-width: 732px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 30px 96px;
+    border-radius: 20px;
+}
+
+    .company-size-wrapper .company-size__title {
+        font-size: 24px;
+        color: $dark-d-1;
+        font-weight: 500;
+    }
+
+    .company-size-wrapper .company-size-items {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin: 35px 0;
+    }
+
+    .company-size-wrapper .company-size-actions {
+        display: flex;
+        width: 250px;
+    }

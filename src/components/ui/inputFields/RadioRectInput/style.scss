@@ -1,0 +1,62 @@
+@import '../../../../styles/config';
+
+.company-size-wrapper {
+    width: 100%;
+}
+
+.radio-rect-wrapper {
+    position: relative;
+    display: flex;
+    flex: 0 0 16%;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid $dark-3;
+}
+
+.radio-rect__input {
+    display: block;
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.radio-rect__filler {
+    transition: .3s;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.radio-rect__title {
+    transition: .3s;
+    position: absolute;
+    font-size: 16px;
+    color: $dark-1;
+    z-index: 0;
+}
+
+.radio-rect-wrapper .radio-rect__input:checked ~ .radio-rect__filler { 
+    background-color: $primary-color;
+}
+
+.radio-rect-wrapper .radio-rect__input:checked ~ .radio-rect__title {
+    color: #fff;
+}
+
+.radio-rect-wrapper .radio-rect__input:hover ~ .radio-rect__filler{
+    transition: .3s;
+    background-color: $primary-color;
+}
+
+.radio-rect-wrapper .radio-rect__input:hover ~ .radio-rect__title {
+    transition: .3s;
+    color: #fff;
+}
