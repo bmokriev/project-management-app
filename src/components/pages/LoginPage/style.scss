@@ -1,0 +1,49 @@
+@import "../../../styles/config";
+
+.login-page .title {
+  text-align: center;
+}
+
+.login-page .divider {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  color: #c1c2c3;
+  padding: 40px 0;
+}
+
+.login-page .divider > span {
+  position: relative;
+  display: inline-block;
+}
+
+.login-page .divider > span:before,
+.login-page .divider > span:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 9999px;
+  height: 1px;
+  background: #c1c2c350;
+}
+
+.login-page .divider > span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+
+.login-page .divider > span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+
+.login-page .footer {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.login-page .footer a {
+  text-decoration: none;
+  color: #08c7e0;
+}
