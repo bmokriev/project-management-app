@@ -2,7 +2,7 @@ import React from 'react';
 import { MdPhotoCamera } from 'react-icons/md';
 import './avatarForm.scss';
 
-import ButtonPrimary from '../../components/ui/buttons/ButtonPrimary/ButtonPrimary';
+import ButtonPrimary from '../../ui/buttons/ButtonPrimary/ButtonPrimary';
 
 const colors = [
   '#40BC86',
@@ -35,7 +35,7 @@ function AvatarForm() {
   return (
     <div id='avatar-form'>
       <h1>Upload your project avatar</h1>
-      <div>
+      <div id='main-avatar'>
         <button id='upload-btn'>
           <MdPhotoCamera id='camera' />
         </button>

@@ -1,4 +1,4 @@
-@use '../../styles/config';
+@use '../../../styles/config';
 
 #avatar-form {
   width: 548px;
@@ -61,6 +61,24 @@
       font-size: 16px;
       color: config.$button-primary-bg-color;
       cursor: pointer;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  #avatar-form {
+    width: 100%;
+    height: 440px;
+    #main-avatar {
+      flex-direction: column;
+      gap: 30px;
+      margin-bottom: 190px;
+      #radios {
+        display: grid;
+        grid-template-columns: repeat(6, min-content);
+        gap: 20px 60px;
+        justify-items: center;
+      }
     }
   }
 }
