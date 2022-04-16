@@ -1,11 +1,7 @@
-import React, { useEffect } from "react";
+import React from "react";
 import ContainerLayout from "../layouts/ContainerLayout/ContainerLayout";
 
 const MainPage = () => {
-  useEffect(() => {
-    document.documentElement.setAttribute("data-theme", "light");
-  }, []);
-
   return (
     <ContainerLayout title="Hello World">
       <h1>Hello World</h1>
