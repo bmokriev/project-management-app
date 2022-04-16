@@ -1,0 +1,47 @@
+@import "../../../styles/config";
+
+.reset-password-wrapper {
+    box-shadow: $container-box-shadow;
+    max-width: 732px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 30px 96px;
+    border-radius: 20px;
+}
+
+    .reset-password-wrapper .reset-password__title {
+        font-weight: 600;
+        font-size: 32px;
+        text-align: center;
+        font-family: inherit;
+        color: $container-box-heading-color;
+        margin-bottom: 45px;
+        margin-top: 10px;
+    }
+
+    .reset-password-wrapper .reset-password-actions {
+        margin-top: 30px;
+    }
+
+        .reset-password-wrapper .reset-password-actions .reset-password__action.regress__action{
+            margin-top: 35px;
+        }
+
+@media only screen and (max-width: 690px) {
+    .reset-password-wrapper {
+        padding: 30px 20px;
+    }
+
+        .reset-password-wrapper .reset-password__title {
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
+
+        .reset-password-wrapper .reset-password-actions {
+            margin-top: 25px;
+        }
+
+            .reset-password-wrapper .reset-password-actions .reset-password__action.regress__action{
+                margin-top: 15px;
+            }
+}
