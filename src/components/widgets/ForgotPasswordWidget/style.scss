@@ -26,3 +26,22 @@
         .forgot-password-wrapper .forgot-password-actions .forgot-password__action.regress__action{
             margin-top: 35px;
         }
+
+@media only screen and (max-width: 690px) {
+    .forgot-password-wrapper {
+        padding: 30px 20px;
+    }
+
+        .forgot-password-wrapper .forgot-password__title {
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
+
+        .forgot-password-wrapper .forgot-password-actions {
+            margin-top: 25px;
+        }
+
+            .forgot-password-wrapper .forgot-password-actions .forgot-password__action.regress__action{
+                margin-top: 15px;
+            }
+}
