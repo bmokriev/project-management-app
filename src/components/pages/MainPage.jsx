@@ -3,12 +3,15 @@ import ContainerLayout from "../layouts/ContainerLayout/ContainerLayout";
 
 const MainPage = () => {
   useEffect(() => {
-    document.documentElement.setAttribute("data-theme", "dark");
+    document.documentElement.setAttribute("data-theme", "light");
   }, []);
 
   return (
     <ContainerLayout title="Hello World">
-      <p>text</p>
+      <p>
+        He who controls the past, commands the future. He who commands the
+        future, conquers the past.
+      </p>
     </ContainerLayout>
   );
 };
