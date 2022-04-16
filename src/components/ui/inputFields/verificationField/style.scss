@@ -1,0 +1,21 @@
+@import "../../../../styles/config";
+
+.verification-field {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+  input {
+    height: 5rem;
+    width: 5rem;
+    border: 1px solid $stock-color;
+    border-radius: 0px;
+    text-align: center;
+    color: $dark-d-1;
+    font-size: 30px;
+    &:valid {
+      outline: 1px solid $button-primary-bg-color;
+    }
+  }
+}
