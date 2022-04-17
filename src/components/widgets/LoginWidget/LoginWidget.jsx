@@ -3,6 +3,7 @@ import "./style.scss";
 import ButtonPrimary from "../../ui/buttons/ButtonPrimary/ButtonPrimary";
 import EmailAndNameField from "../../ui/inputFields/EmailAndNameField/EmailAndNamefield";
 import PasswordField from "../../ui/inputFields/PasswordField/PasswordField";
+import routePathEnum from "../../../enums/routePathEnum";
 
 const LoginWidget = (props) => {
   return (
@@ -22,7 +23,8 @@ const LoginWidget = (props) => {
           <ButtonPrimary btnTitle="Continue with Google" />
 
           <p className="login-wrapper__footer">
-            Don't have an account? <a href="/signup">Sign up</a>
+            Don't have an account?{" "}
+            <a href={routePathEnum.SIGN_UP_PAGE}>Sign up</a>
           </p>
         </div>
       </form>
