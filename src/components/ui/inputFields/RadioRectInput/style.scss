@@ -60,3 +60,10 @@
     transition: .3s;
     color: #fff;
 }
+
+@media only screen and (max-width: 771px) {
+    .radio-rect-wrapper {
+        flex: 0 0 21%;
+        margin-right: 10px;
+    }
+}

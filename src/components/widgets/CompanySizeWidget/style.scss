@@ -26,3 +26,9 @@
         display: flex;
         width: 250px;
     }
+
+@media only screen and (max-width: 740px) {
+    .company-size-wrapper {
+        padding: 30px 20px;
+    }
+}
