@@ -2,6 +2,7 @@ import React from "react";
 import "./style.scss";
 import ButtonPrimary from "../../ui/buttons/ButtonPrimary/ButtonPrimary";
 import EmailAndNameField from "../../ui/inputFields/EmailAndNameField/EmailAndNamefield";
+import routePathEnum from "../../../enums/routePathEnum";
 
 const SignUpWidget = (props) => {
   return (
@@ -20,7 +21,8 @@ const SignUpWidget = (props) => {
           <ButtonPrimary btnTitle="Continue with Google" />
 
           <p className="sign-up-wrapper__footer">
-            Already have an account? <a href="/login">Log in</a>
+            Already have an account?{" "}
+            <a href={routePathEnum.LOGIN_PAGE}>Log in</a>
           </p>
         </div>
       </form>
