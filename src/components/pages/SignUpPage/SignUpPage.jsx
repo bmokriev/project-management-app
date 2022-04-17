@@ -6,7 +6,7 @@ import ContainerLayout from "../../layouts/ContainerLayout/ContainerLayout";
 const SignUpPage = () => {
   return (
     <ContainerLayout>
-      <div className="page-content login-content">
+      <div className="page-content sign-up-content">
         <SignUpWidget title="Sign up" />
       </div>
     </ContainerLayout>

@@ -1,0 +1,9 @@
+.page-content.sign-up-content {
+  width: 732px;
+}
+
+@media only screen and (max-width: 950px) {
+  .page-content.sign-up-content {
+    width: 100%;
+  }
+}
