@@ -3,6 +3,8 @@ import "./style.scss";
 import ButtonPrimary from "../../ui/buttons/ButtonPrimary/ButtonPrimary";
 import EmailAndNameField from "../../ui/inputFields/EmailAndNameField/EmailAndNamefield";
 import routePathEnum from "../../../enums/routePathEnum";
+import ButtonGhost from "../../ui/buttons/ButtonGhost/ButtonGhost";
+import { Link } from "react-router-dom";
 
 const SignUpWidget = (props) => {
   return (
@@ -18,11 +20,11 @@ const SignUpWidget = (props) => {
             <span>or</span>
           </div>
 
-          <ButtonPrimary btnTitle="Continue with Google" />
+          <ButtonGhost btnTitle="Continue with Google" />
 
           <p className="sign-up-wrapper__footer">
             Already have an account?{" "}
-            <a href={routePathEnum.LOGIN_PAGE}>Log in</a>
+            <Link to={{ pathname: routePathEnum.LOGIN_PAGE }}>Log in</Link>
           </p>
         </div>
       </form>
