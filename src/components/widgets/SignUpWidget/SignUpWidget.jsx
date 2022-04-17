@@ -2,7 +2,6 @@ import React from "react";
 import "./style.scss";
 import ButtonPrimary from "../../ui/buttons/ButtonPrimary/ButtonPrimary";
 import EmailAndNameField from "../../ui/inputFields/EmailAndNameField/EmailAndNamefield";
-import PasswordField from "../../ui/inputFields/PasswordField/PasswordField";
 
 const SignUpWidget = (props) => {
   return (
