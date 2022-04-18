@@ -3,8 +3,10 @@ import ForgotPasswordPage from "../components/pages/ForgotPasswordPage/ForgotPas
 import ResetPasswordPage from "../components/pages/ResetPasswordPage/ResetPasswordPage";
 import routePathEnum from "../enums/routePathEnum";
 import React from "react";
+import SignUpPage from "../components/pages/SignUpPage/SignUpPage";
 
-const { MAIN_PAGE, FORGOT_PASSWORD_PAGE,  RESET_PASSWORD_PAGE} = routePathEnum;
+const { MAIN_PAGE, SIGN_UP_PAGE, FORGOT_PASSWORD_PAGE, RESET_PASSWORD_PAGE } =
+  routePathEnum;
 
 export function routeMap() {
   return [
@@ -13,12 +15,16 @@ export function routeMap() {
       path: MAIN_PAGE,
     },
     {
+      component: <SignUpPage />,
+      path: SIGN_UP_PAGE,
+    },
+    {
       component: <ForgotPasswordPage />,
-      path: FORGOT_PASSWORD_PAGE
+      path: FORGOT_PASSWORD_PAGE,
     },
     {
       component: <ResetPasswordPage />,
-      path: RESET_PASSWORD_PAGE
-    }
+      path: RESET_PASSWORD_PAGE,
+    },
   ];
 }
