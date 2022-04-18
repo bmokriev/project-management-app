@@ -1,0 +1,9 @@
+.page-content.login-content {
+  width: 732px;
+}
+
+@media only screen and (max-width: 950px) {
+  .page-content.login-content {
+    width: 100%;
+  }
+}
